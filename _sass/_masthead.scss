@@ -34,13 +34,41 @@
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
   }
+}
+
+.greedy-nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: $background-color;
+
+  .dark-mode-toggle {
+    position: relative;
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    
+    svg {
+      width: 1.2em;
+      height: 1.2em;
+    }
+  }
+}
+
+.masthead__inner-wrap nav {
+  position: relative;
+  width: 100%;
 }
 
 .masthead__menu-home-item {
@@ -60,5 +88,3 @@
     font-weight: 700;
   }
 }
-
-
