@@ -1,5 +1,7 @@
 # 💻 Technical Skills
-- **Programming Languages**: C, Python, R, HTML, React, Javascript, Typescript
-- **Frameworks**: PyTorch, TensorFlow, PyG
-- **Tools**: Mathematica, LaTeX, Git
-- **Languages**: English (TOEFL 100, Speaking: 23)
+- **Programming Languages**: [C](https://en.wikipedia.org/wiki/C_(programming_language)), [Python](https://www.python.org/), [R](https://www.r-project.org/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [React](https://reactjs.org/), [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [TypeScript](https://www.typescriptlang.org/)
+- **Frameworks**: [PyTorch](https://pytorch.org/), [TensorFlow](https://www.tensorflow.org/), [PyG](https://pytorch-geometric.readthedocs.io/)
+- **Tools**: [Mathematica](https://www.wolfram.com/mathematica/), [LaTeX](https://www.latex-project.org/), [Git](https://git-scm.com/)
+- **Languages**: English ([TOEFL](https://www.ets.org/toefl) 100, Speaking: 23)
+
+Check out my [GitHub profile](https://github.com/xiaolongluo) for code examples and projects.
