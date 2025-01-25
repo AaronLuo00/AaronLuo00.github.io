@@ -29,6 +29,8 @@ I am a Ph.D. student in Engineering Science at [Harvard School of Engineering an
 
 {% include_relative includes/technical_skills.md %}
 
+{% include_relative includes/teaching.md %}
+
 {% include_relative includes/extracurricular.md %}
 
 # 🔗 Links

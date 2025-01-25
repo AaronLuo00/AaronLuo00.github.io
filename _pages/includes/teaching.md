@@ -1,11 +1,4 @@
----
-layout: single
-title: "Teaching Experience"
-permalink: /#-teaching
-author_profile: true
----
-
-# Teaching Assistant Experience
+# 👨‍🏫 Teaching
 
 ## Head Teaching Fellow
 ### AM101: Statistical Inference for Scientists and Engineers (Spring 2024)

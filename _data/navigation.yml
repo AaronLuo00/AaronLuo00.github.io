@@ -9,9 +9,6 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Recent Projects"
-    url: "/#-recent-projects"
-
   - title: "Invited Talks"
     url: "/#-invited-talks"
 
@@ -21,11 +18,14 @@ main:
   - title: "Technical Skills"
     url: "/#-technical-skills"
 
-  - title: "Contact"
-    url: "/#-contact"
+  - title: "Teaching"
+    url: "/#-teaching"
 
   - title: "Blog"
     url: "/blog"
 
   - title: "Philosophy"
     url: "/philosophy"
+
+  - title: "Contact"
+    url: "/#-contact"

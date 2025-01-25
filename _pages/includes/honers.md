@@ -10,13 +10,6 @@
 - **Chinese Mathematics Competitions, Anhui, The Second Prize** (2019)  
   [[Competition Info]](http://www.cmathc.cn/)
 
-## Teaching Excellence
-- **Head Teaching Fellow**, [AM101: Statistical Inference for Scientists and Engineers](https://canvas.harvard.edu/courses/118994) (Spring 2024)  
-  [[Course Website]]({{ site.baseurl }}/teaching/am101)
-- **Teaching Fellow**, [CS 182: Artificial Intelligence](https://harvard-iacs.github.io/2023-CS182/) (Fall 2023)  
-  [[Course Website]]({{ site.baseurl }}/teaching/cs182)
-- **Teaching Fellow**, [Stat 139: Introduction to Linear Models](https://canvas.harvard.edu/courses/112796) (Fall 2023)  
-  [[Course Website]]({{ site.baseurl }}/teaching/stat139)
 
 ## Leadership & Entrepreneurship
 - **Co-director**, [Harvard GSAS Entrepreneur Club](https://gsas.harvard.edu/student-life/harvard-resources/graduate-student-organizations), AI Community (2022-Present)  
