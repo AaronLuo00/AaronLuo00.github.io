@@ -1,5 +1,5 @@
 # 📎 Homepages
-- Personal Pages: https://rayeren.github.io (updated recently🔥)
-- Linkedin: https://www.linkedin.com/in/rayeren
-- Google Scholar: https://scholar.google.com/citations?user=4FA6C0AAAAAJ
+- Personal Pages: https://aaronluo00.github.io/Aaron_Homepage/ (updated recently🔥)
+- Linkedin: https://www.linkedin.com/in/xiaolong-luo-4a8281236
+- Google Scholar: https://scholar.google.com/citations?user=Pjx2DdQAAAAJ&hl=en
 - DBLP: https://dblp.org/pid/75/6568-6.html
