@@ -1,282 +1,338 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balancing Life as a Graduate Student at Harvard</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/Aaron_Homepage/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/Aaron_Homepage/favicon.ico" type="image/x-icon">
     <style>
         :root {
-            --primary-color: #2a7ae2;
-            --text-color: #333;
-            --bg-color: #fff;
-            --secondary-bg: #f8f9fa;
-            --border-color: #e1e4e8;
-            --header-color: #222;
-            --meta-color: #666;
+            --bg-color: #f8f9fa;
+            --text-color: #2c3e50;
+            --article-bg: white;
+            --article-shadow: rgba(0,0,0,0.1);
+            --heading-color: #34495e;
+            --date-color: #666;
+            --caption-color: #666;
+            --link-color: #3498db;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        [data-theme="dark"] {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --article-bg: #2d2d2d;
+            --article-shadow: rgba(0,0,0,0.3);
+            --heading-color: #9ab;
+            --date-color: #999;
+            --caption-color: #999;
+            --link-color: #5dade2;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
             background-color: var(--bg-color);
-            padding: 0;
-            margin: 0;
+            color: var(--text-color);
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
+        .nav-buttons {
+            margin: 30px 0;
+            text-align: left;
         }
 
-        .navigation {
-            background-color: var(--secondary-bg);
-            padding: 1rem 0;
-            border-bottom: 1px solid var(--border-color);
-            margin-bottom: 2rem;
-        }
-
-        .nav-container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .navigation a {
-            display: inline-block;
-            margin-right: 1.5rem;
-            color: var(--primary-color);
+        .nav-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            margin-right: 15px;
+            background: linear-gradient(145deg, #3498db, #2980b9);
+            color: white;
             text-decoration: none;
+            border-radius: 25px;
             font-weight: 500;
-            transition: color 0.2s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: none;
+            position: relative;
+            overflow: hidden;
         }
 
-        .navigation a:hover {
-            color: #1756a9;
+        .nav-button:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(120deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: 0.5s;
         }
 
-        .navigation a::before {
-            content: '←';
-            margin-right: 0.5rem;
+        .nav-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            background: linear-gradient(145deg, #2980b9, #2c3e50);
         }
 
-        h1, h2, h3 {
-            color: var(--header-color);
-            line-height: 1.3;
-            margin: 1.5rem 0 1rem;
+        .nav-button:hover:before {
+            left: 100%;
         }
 
+        .nav-button svg {
+            margin-right: 8px;
+            width: 16px;
+            height: 16px;
+        }
+        
+        .article {
+            background: var(--article-bg);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px var(--article-shadow);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        
         h1 {
-            font-size: 2.5rem;
-            margin-top: 0;
-            padding-bottom: 1rem;
-            border-bottom: 2px solid var(--border-color);
+            color: var(--heading-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
         }
-
+        
         h2 {
-            font-size: 1.75rem;
-            margin-top: 2.5rem;
+            color: var(--heading-color);
+            margin-top: 30px;
         }
-
-        h3 {
-            font-size: 1.25rem;
-            margin-top: 2rem;
-        }
-
+        
         .date {
-            color: var(--meta-color);
+            color: var(--date-color);
             font-style: italic;
-            margin: 1rem 0 2rem;
-            font-size: 0.95rem;
+            margin-bottom: 30px;
         }
 
-        p {
-            margin-bottom: 1.5rem;
-            font-size: 1.1rem;
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: linear-gradient(145deg, #3498db, #2980b9);
+            border: none;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            z-index: 1000;
         }
 
-        ul, ol {
-            margin: 1rem 0 1.5rem 2rem;
+        .theme-toggle:hover {
+            transform: scale(1.1);
         }
 
-        li {
-            margin-bottom: 0.5rem;
-            font-size: 1.1rem;
+        .theme-toggle .moon {
+            display: none;
         }
 
-        pre {
-            background-color: var(--secondary-bg);
-            padding: 1rem;
-            border-radius: 4px;
-            overflow-x: auto;
-            margin: 1.5rem 0;
+        [data-theme="dark"] .theme-toggle .sun {
+            display: none;
         }
 
-        code {
-            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-            font-size: 0.9rem;
-            background-color: var(--secondary-bg);
-            padding: 0.2rem 0.4rem;
-            border-radius: 3px;
+        [data-theme="dark"] .theme-toggle .moon {
+            display: block;
         }
-
-        blockquote {
-            margin: 1.5rem 0;
-            padding-left: 1rem;
-            border-left: 4px solid var(--primary-color);
-            color: var(--meta-color);
-            font-style: italic;
+        
+        .image-container {
+            margin: 20px 0;
+            text-align: center;
         }
-
+        
         img {
             max-width: 100%;
-            height: auto;
-            margin: 1.5rem 0;
             border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-
-        hr {
-            margin: 2rem 0;
-            border: none;
-            border-top: 1px solid var(--border-color);
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 1rem;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            h3 {
-                font-size: 1.2rem;
-            }
-
-            .navigation {
-                padding: 0.75rem 0;
-            }
-
-            .nav-container {
-                padding: 0 1rem;
-            }
-        }
-
-        /* Dark mode support */
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --text-color: #e1e1e1;
-                --bg-color: #1a1a1a;
-                --secondary-bg: #2d2d2d;
-                --border-color: #404040;
-                --header-color: #fff;
-                --meta-color: #aaa;
-            }
+        
+        .caption {
+            color: #666;
+            font-style: italic;
+            text-align: center;
+            margin-top: 8px;
         }
     </style>
 </head>
 <body>
-    <nav class="navigation">
-        <div class="nav-container">
-            <a href="/Aaron_Homepage/">Back to Homepage</a>
-            <a href="/Aaron_Homepage/blog">Back to Blog</a>
-        </div>
-    </nav>
-
-    <div class="container">
-        <article>
+    <div class="nav-buttons">
+        <a href="/Aaron_Homepage/" class="nav-button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            Back to Homepage
+        </a>
+        <a href="/Aaron_Homepage/blog" class="nav-button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            Back to Blog
+        </a>
+    </div>
+    <div class="article">
         <h1>Balancing Life as a Graduate Student at Harvard</h1>
         <div class="date">March 5, 2024</div>
+        
+        <div class="content">
+            <div class="image-container">
+                <svg width="600" height="300" viewBox="0 0 600 300">
+                    <!-- Simple Harvard Campus Scene -->
+                    <rect x="0" y="0" width="600" height="300" fill="#f8f9fa"/>
+                    <!-- Sky -->
+                    <rect x="0" y="0" width="600" height="200" fill="#b3d9ff"/>
+                    <!-- Ground -->
+                    <rect x="0" y="200" width="600" height="100" fill="#90EE90"/>
+                    <!-- Building -->
+                    <rect x="150" y="50" width="300" height="200" fill="#8B4513"/>
+                    <!-- Windows -->
+                    <rect x="180" y="80" width="40" height="60" fill="#FFE4C4"/>
+                    <rect x="240" y="80" width="40" height="60" fill="#FFE4C4"/>
+                    <rect x="320" y="80" width="40" height="60" fill="#FFE4C4"/>
+                    <rect x="380" y="80" width="40" height="60" fill="#FFE4C4"/>
+                    <!-- Door -->
+                    <rect x="280" y="160" width="40" height="90" fill="#4A2810"/>
+                    <!-- Roof -->
+                    <polygon points="150,50 300,0 450,50" fill="#4A2810"/>
+                    <!-- Trees -->
+                    <circle cx="100" cy="180" r="40" fill="#228B22"/>
+                    <circle cx="500" cy="180" r="40" fill="#228B22"/>
+                </svg>
+                <div class="caption">A peaceful morning at Harvard Yard</div>
+            </div>
 
-        <p>The journey through graduate school is both challenging and rewarding. As a computer science graduate student at Harvard, I'd like to share some insights about maintaining a healthy balance while pursuing academic excellence.</p>
+            <h2>Introduction</h2>
+            <p>Life as a graduate student at Harvard is an exciting journey filled with opportunities and challenges. In this post, I'll share my personal experiences and strategies for maintaining a healthy work-life balance while pursuing academic excellence.</p>
 
-        <h2>Time Management Strategies</h2>
-        <p>Effective time management is crucial for success in graduate school:</p>
+            <h2>Time Management Strategies</h2>
+            <div class="image-container">
+                <svg width="600" height="300" viewBox="0 0 600 300">
+                    <defs>
+                        <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                            <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+                        </marker>
+                    </defs>
+                    <!-- Pie Chart -->
+                    <g transform="translate(300,150)">
+                        <!-- Research and Lab Work: 40% -->
+                        <path d="M 0 0 L 100 0 A 100 100 0 0 1 30.9 95.1 Z" fill="#3498db"/>
+                        <text x="70" y="50" fill="white" font-size="12">Research</text>
+                        <text x="70" y="65" fill="white" font-size="12">40%</text>
+                        
+                        <!-- Classes and Teaching: 30% -->
+                        <path d="M 0 0 L 30.9 95.1 A 100 100 0 0 1 -80.9 58.8 Z" fill="#2ecc71"/>
+                        <text x="-30" y="80" fill="white" font-size="12">Teaching</text>
+                        <text x="-30" y="95" fill="white" font-size="12">30%</text>
+                        
+                        <!-- Reading and Writing: 15% -->
+                        <path d="M 0 0 L -80.9 58.8 A 100 100 0 0 1 -95.1 -30.9 Z" fill="#e74c3c"/>
+                        <text x="-80" y="0" fill="white" font-size="12">Reading</text>
+                        <text x="-80" y="15" fill="white" font-size="12">15%</text>
+                        
+                        <!-- Exercise: 10% -->
+                        <path d="M 0 0 L -95.1 -30.9 A 100 100 0 0 1 -30.9 -95.1 Z" fill="#f1c40f"/>
+                        <text x="-50" y="-60" fill="white" font-size="12">Exercise</text>
+                        <text x="-50" y="-45" fill="white" font-size="12">10%</text>
+                        
+                        <!-- Social: 5% -->
+                        <path d="M 0 0 L -30.9 -95.1 A 100 100 0 0 1 100 0 Z" fill="#9b59b6"/>
+                        <text x="30" y="-60" fill="white" font-size="12">Social</text>
+                        <text x="30" y="-45" fill="white" font-size="12">5%</text>
+                    </g>
+                </svg>
+                <div class="caption">Weekly time allocation for different activities</div>
+            </div>
+            <p>Effective time management is crucial for success in graduate school. Here's how I structure my typical week:</p>
+            <ul>
+                <li>Research and Lab Work: 40%</li>
+                <li>Classes and Teaching: 30%</li>
+                <li>Reading and Writing: 15%</li>
+                <li>Exercise and Recreation: 10%</li>
+                <li>Social Activities: 5%</li>
+            </ul>
 
-        <h3>1. Research Priority</h3>
-        <ul>
-            <li>Dedicate fixed hours to research</li>
-            <li>Set clear daily objectives</li>
-            <li>Track progress regularly</li>
-        </ul>
+            <h2>Academic Life</h2>
+            <p>The academic environment at Harvard is both challenging and inspiring. Some key aspects include:</p>
+            <ul>
+                <li>Collaborative Research Opportunities</li>
+                <li>World-class Faculty Mentorship</li>
+                <li>Access to Cutting-edge Resources</li>
+                <li>Interdisciplinary Learning</li>
+            </ul>
 
-        <h3>2. Course Work Balance</h3>
-        <ul>
-            <li>Plan readings ahead of time</li>
-            <li>Participate actively in discussions</li>
-            <li>Connect coursework to research interests</li>
-        </ul>
+            <div class="image-container">
+                <svg width="600" height="300" viewBox="0 0 600 300">
+                    <!-- Study Space Scene -->
+                    <rect x="0" y="0" width="600" height="300" fill="#f8f9fa"/>
+                    <!-- Wall -->
+                    <rect x="0" y="0" width="600" height="300" fill="#e8e8e8"/>
+                    <!-- Window -->
+                    <rect x="350" y="30" width="200" height="240" fill="#b3d9ff"/>
+                    <line x1="450" y1="30" x2="450" y2="270" stroke="#666" stroke-width="2"/>
+                    <!-- Desk -->
+                    <rect x="50" y="150" width="250" height="20" fill="#8B4513"/>
+                    <rect x="60" y="170" width="20" height="100" fill="#8B4513"/>
+                    <rect x="270" y="170" width="20" height="100" fill="#8B4513"/>
+                    <!-- Laptop -->
+                    <rect x="100" y="130" width="150" height="10" fill="#333"/>
+                    <rect x="170" y="140" width="10" height="10" fill="#333"/>
+                    <!-- Books -->
+                    <rect x="60" y="130" width="30" height="20" fill="#e74c3c"/>
+                    <rect x="65" y="120" width="30" height="10" fill="#3498db"/>
+                </svg>
+                <div class="caption">My favorite study spot in the Science Center</div>
+            </div>
 
-        <h3>3. Teaching Responsibilities</h3>
-        <ul>
-            <li>Prepare materials in advance</li>
-            <li>Schedule office hours efficiently</li>
-            <li>Learn from teaching experiences</li>
-        </ul>
+            <h2>Maintaining Well-being</h2>
+            <p>Taking care of physical and mental health is essential. Here are some practices that help me stay balanced:</p>
+            <ul>
+                <li>Regular Exercise at Harvard's Athletic Facilities</li>
+                <li>Mindfulness and Meditation</li>
+                <li>Social Connections with Fellow Students</li>
+                <li>Exploring Cambridge and Boston</li>
+            </ul>
 
-        <h2>Personal Well-being</h2>
-        <h3>1. Physical Health</h3>
-        <ul>
-            <li>Regular exercise schedule</li>
-            <li>Proper sleep routine</li>
-            <li>Healthy eating habits</li>
-        </ul>
+            <h2>Community Engagement</h2>
+            <p>Being part of the Harvard community extends beyond academics. I actively participate in:</p>
+            <ul>
+                <li>Graduate Student Organizations</li>
+                <li>Research Seminars and Workshops</li>
+                <li>Cultural Events</li>
+                <li>Volunteer Activities</li>
+            </ul>
 
-        <h3>2. Mental Health</h3>
-        <ul>
-            <li>Take regular breaks</li>
-            <li>Practice mindfulness</li>
-            <li>Maintain social connections</li>
-        </ul>
+            <h2>Conclusion</h2>
+            <p>While the graduate school journey can be demanding, finding the right balance between academic pursuits and personal well-being is key to a fulfilling experience at Harvard. Remember to take advantage of the numerous resources and support systems available while maintaining focus on your goals.</p>
+        </div>
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path class="sun" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+            <path class="moon" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+        </svg>
+    </button>
 
-        <h3>3. Social Life</h3>
-        <ul>
-            <li>Join academic communities</li>
-            <li>Participate in department events</li>
-            <li>Build professional networks</li>
-        </ul>
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
 
-        <h2>Professional Development</h2>
-        <h3>1. Skill Development</h3>
-        <ul>
-            <li>Attend workshops and seminars</li>
-            <li>Learn new technologies</li>
-            <li>Improve communication skills</li>
-        </ul>
-
-        <h3>2. Networking</h3>
-        <ul>
-            <li>Attend conferences</li>
-            <li>Join research groups</li>
-            <li>Collaborate with peers</li>
-        </ul>
-
-        <h2>Finding Your Rhythm</h2>
-        <p>Everyone's graduate school experience is unique. The key is to find a sustainable rhythm that works for you while maintaining academic excellence. Remember that it's a marathon, not a sprint.</p>
-
-        <h2>Looking Forward</h2>
-        <p>As we progress through our academic journey, it's important to:</p>
-        <ul>
-            <li>Set realistic goals</li>
-            <li>Celebrate small victories</li>
-            <li>Stay connected with your passion for research</li>
-            <li>Build lasting professional relationships</li>
-        </ul>
-    </article>
+        // 初始化主题
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
 </body>
 </html>
