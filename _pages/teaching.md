@@ -9,7 +9,7 @@ author_profile: true
 
 ## Head Teaching Fellow
 ### AM101: Statistical Inference for Scientists and Engineers (Spring 2024)
-- Instructor: Prof. Rob Howe
+- Instructor: Prof. Rob Howe (Harvard SEAS)
 - Class size: 55 students
 
 ## Teaching Fellow
@@ -22,7 +22,7 @@ author_profile: true
 - Class size: 83 students
 
 ### Probability Theory and Mathematical Statistics (Fall 2021)
-- Instructor: Prof. Canwen Hong (Applied Math, USTC)
+- Instructor: Prof. Canwen Hong (Stat, USTC)
 - Class size: 97 students
 
 ### Differential Equation I (Fall 2020)
