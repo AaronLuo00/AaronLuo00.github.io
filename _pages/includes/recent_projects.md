@@ -1,4 +1,4 @@
-# 🚀 Recent Projects
+<!-- # 🚀 Recent Projects
 
 - **Interpretable Sequential MIL in Medical Imaging** (Harvard, 2023-Present)  
   Advisor: Prof. Michael Lingzhi Li (HBS, Harvard)  
@@ -14,4 +14,4 @@
 
 - **Learning Pruning-Friendly Networks** (UT Austin, 2021)  
   Advisor: Prof. Zhangyang Wang (ECE, UT Austin)  
-  Created a one-shot pruning framework that enhances DNN deployment efficiency without the need for retraining.
+  Created a one-shot pruning framework that enhances DNN deployment efficiency without the need for retraining. -->

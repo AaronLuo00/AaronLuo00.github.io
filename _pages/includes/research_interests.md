@@ -1,5 +1,5 @@
 # 🔬 Research Interests
 
-- **Theoretical Foundations of AI**: I work on the theory of reinforcement learning, deep learning, and large foundation models through the lens of statistics and optimization. The goal is to push forward the understanding and to improve the training and inference mechanism of AI models in a principled manner.
+- **Flexible Diagnostic Models with Multi-task and Multi-modal Learning**: I work on developing advanced AI models that can simultaneously handle multiple diagnostic tasks while effectively integrating various types of medical data (imaging, clinical notes, lab results) to provide more comprehensive and accurate medical assessments.
 
-- **Large Language Models Capabilities and Alignment**: I work to push the boundary of planning and reasoning capabilities while enhancing the alignment of LLMs through the way of reinforcement learning.
+- **Democratizing Healthcare Access through AI Agents**: I am dedicated to developing intelligent healthcare agents that make medical resources and consultations more accessible and convenient for everyone. This includes creating AI systems that can provide preliminary medical advice, assist in resource allocation, and bridge the gap between patients and healthcare providers.
