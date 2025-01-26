@@ -11,12 +11,8 @@ Welcome to my blog! Here I share thoughts and insights about research, academic 
 
 ## Recent Posts
 
-### [Effective Research Methodology in Computer Science]({{ site.baseurl }}/assets/blog_posts/research-methodology.html)
-*March 10, 2024*
+### [Cline: The AI Assistant That Doubled My Productivity]({{ site.baseurl }}/assets/blog_posts/cline-ai-assistant.html)
+*January 26, 2025*
 
-A comprehensive guide to research methodology in computer science, covering the scientific method, best practices, and future challenges in our field.
+A detailed exploration of how Cline works and its impact on research and development productivity, featuring personal experiences and practical applications in academic work.
 
-### [Balancing Life as a Graduate Student at Harvard]({{ site.baseurl }}/assets/blog_posts/grad-school-life.html)
-*March 5, 2024*
-
-Personal insights and practical advice on maintaining work-life balance while pursuing graduate studies at Harvard, including time management strategies and well-being tips.
