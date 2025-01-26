@@ -7,7 +7,7 @@ author_profile: true
 
 # Blog Posts
 
-Welcome to my blog! Here I share thoughts and insights about research, academic life, and computer science.
+Welcome to my blog! Here I share thoughts and insights about research, academic life, AI and computer science.
 
 ## Recent Posts
 
