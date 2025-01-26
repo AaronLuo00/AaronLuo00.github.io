@@ -38,11 +38,10 @@ This curiosity has led me to explore far beyond my primary field of AI, venturin
    - Actively collaborating with outstanding peers across different fields
    - Contributing to others' growth while prioritizing personal development
 
-5. **Idea Meritocracy**
-   - Valuing the best ideas regardless of their source
-   - Fostering meaningful disagreement and debate
-   - Creating an environment where truth and excellence prevail
-   - Embracing thoughtful disagreement as a path to better decisions
+5. **Open-minded & Inclusive Thinking**
+   - Embracing diverse perspectives and worldviews
+   - Appreciating individuals with coherent value systems
+   - Maintaining intellectual curiosity and respectful dialogue
 
 ## Vision and Purpose
 
