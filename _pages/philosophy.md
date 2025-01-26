@@ -33,23 +33,19 @@ This curiosity has led me to explore far beyond my primary field of AI, venturin
    - Challenging assumptions and conventional wisdom
 
 4. **Balanced Relationships**
+   - Surrounding myself with high-energy and exceptional individuals
    - Building meaningful connections while maintaining healthy boundaries
-   - Learning from outstanding individuals across different fields
+   - Actively collaborating with outstanding peers across different fields
    - Contributing to others' growth while prioritizing personal development
+
+5. **Idea Meritocracy**
+   - Valuing the best ideas regardless of their source
+   - Fostering meaningful disagreement and debate
+   - Creating an environment where truth and excellence prevail
+   - Embracing thoughtful disagreement as a path to better decisions
 
 ## Vision and Purpose
 
 My ultimate goal extends beyond personal achievement – I aim to create meaningful impact, particularly in healthcare, and help others navigate their paths with fewer detours than I experienced. I believe that combining ambition with action, while staying grounded in reality, is the key to creating lasting positive change.
 
 This philosophy isn't just about professional growth; it's about understanding the world in its full complexity and using that understanding to make a difference. As someone who values both intellectual depth and practical impact, I strive to bridge the gap between understanding and action.
-
-## Implementation
-
-I implement these principles through:
-1. **Regular Reflection**: Daily and weekly reviews of decisions and outcomes
-2. **Documentation**: Keeping clear records of thought processes and lessons learned
-3. **Metrics**: Measuring progress against clear objectives
-4. **Feedback**: Maintaining open channels for feedback and criticism
-5. **Adaptation**: Regularly updating principles based on new evidence and experiences
-
-These principles are not static rules but evolving guidelines that help me navigate complex decisions and continue growing both personally and professionally. They form the foundation of my approach to research, teaching, and life in general.
