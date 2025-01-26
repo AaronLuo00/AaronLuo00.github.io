@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xiaolong Luo"
-description              : ""
+title                    : "Xiaolong Luo | Harvard Ph.D. Student"
+description              : "Xiaolong Luo's Academic Homepage | Ph.D. Student in Engineering Science at Harvard University"
 repository               : "AaronLuo00/Aaron_Homepage"
 baseurl                 : "/Aaron_Homepage"
 url                     : "https://aaronluo00.github.io"
