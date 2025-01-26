@@ -38,8 +38,8 @@ You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.h
 {% include_relative includes/extracurricular.md %}
 
 # 🔗 Links
-- [Google Scholar](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)
-- [GitHub](https://github.com/xiaolongluo)
+- [Google Scholar](https://scholar.google.com/citations?user=Pjx2DdQAAAAJ&hl=en)
+- [GitHub](https://github.com/AaronLuo00)
 
 # 📧 Contact
 - **Email**: [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu)

@@ -1,4 +1,4 @@
-# 🌟 Extracurricular Activities
+<!-- # 🌟 Extracurricular Activities
 - **[Harvard GSAS Entrepreneur Club](https://www.harvardgsasec.org/)** (2022-Present)  
   Co-director of the AI Community, leading initiatives to foster entrepreneurship and AI-focused projects  
   [[Club Events]]({{ site.baseurl }}/projects/gsas-ec) [[AI Community]](https://www.harvardgsasec.org/ai-community)
@@ -13,4 +13,4 @@
 
 - **[Student Union of USTC](http://en.sa.ustc.edu.cn/)** (2018-2020)  
   Participated in organizing student events and representing student interests  
-  [[Union Activities]](http://en.sa.ustc.edu.cn/student-organizations.html)
+  [[Union Activities]](http://en.sa.ustc.edu.cn/student-organizations.html) -->
