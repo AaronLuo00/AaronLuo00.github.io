@@ -13,7 +13,7 @@ Welcome to my homepage! I am a Ph.D. student in Engineering Science at [Harvard 
 
 My research focuses on developing the foundations of next-generation artificial intelligence techniques to enhance its effectiveness and practical applications in healthcare. I am particularly interested in developing flexible diagnostic models with multi-task and multi-modal learning, aiming to improve medical assessments through the integration of various types of medical data.
 
-You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu).
+You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu). <span style="color: #E74C3C; font-weight: bold; padding: 5px 10px; border-radius: 4px; background-color: rgba(231, 76, 60, 0.1);">🤝 I am actively seeking collaborations in healthcare-related domains! If you're interested in AI applications in healthcare, medical imaging, clinical data analysis, or any related fields, feel free to reach out!</span>
 
 {% include_relative includes/research_interests.md %}
 
