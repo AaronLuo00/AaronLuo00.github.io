@@ -20,7 +20,6 @@
 # 🔗 Links
 - [Google Scholar](https://scholar.google.com/citations?user=Pjx2DdQAAAAJ&hl=en)
 - [GitHub](https://github.com/AaronLuo00)
-- [GitHub](https://github.com/AaronLuo00)
 
 # 📧 Contact
 - **Email**: [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu)
