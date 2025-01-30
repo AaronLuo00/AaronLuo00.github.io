@@ -20,7 +20,6 @@
 # 🔗 Links
 - [Google Scholar](https://scholar.google.com/citations?user=Pjx2DdQAAAAJ&hl=en)
 - [GitHub](https://github.com/AaronLuo00)
-- [Schedule a Meeting (30min)](https://calendly.com/xiaolongluo/30min)
 
 # 📧 Contact
 - **Email**: [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu)
