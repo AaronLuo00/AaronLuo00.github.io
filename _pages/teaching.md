@@ -13,6 +13,15 @@ author_profile: true
 - Class size: 55 students
 
 ## Teaching Fellow
+### COMPSCI 1090B: Data Science 2: Advanced Topics in Data Science (Spring 2025)
+- Instructor: Prof. Pavlos Protopapas (SEAS) & Natesh Pillai (Statistics)
+- Class size: 277 students
+
+### NEURO 240: Biological and Artificial Intelligence (Spring 2025)
+- Instructor: Prof. Gabriel Kreiman
+- Class size: 142 students
+- [Course Website](https://kreimanlab.com/courses/biological-and-artificial-intelligence/)
+
 ### CS 182: Artificial Intelligence (Fall 2023)
 - Instructors: Prof. Stephanie Gil; Prof. Milind Tambe (Harvard SEAS)
 - Class size: 138 students
