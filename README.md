@@ -13,6 +13,8 @@ AcadHomepage
 
 <p align="center">A Modern and Responsive Academic Personal Homepage</p>
 
+bundle install && bundle exec jekyll serve
+
 <p align="center">
     <br>
     <img src="docs/screenshot.png" width="100%"/>

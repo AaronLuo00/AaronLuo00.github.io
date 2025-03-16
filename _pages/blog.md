@@ -2,17 +2,11 @@
 layout: default
 title: "Blog"
 permalink: /blog
+redirect_to: https://aaronluo00.github.io/my-blog/
 author_profile: true
 ---
 
-# Blog Posts
+<meta http-equiv="refresh" content="0;url=https://aaronluo00.github.io/my-blog/">
+<link rel="canonical" href="https://aaronluo00.github.io/my-blog/">
 
-Welcome to my blog! Here I share thoughts and insights about research, academic life, AI and computer science.
-
-## Recent Posts
-
-### [Cline: The AI Assistant That Doubled My Productivity]({{ site.baseurl }}/assets/blog_posts/cline-ai-assistant.html)
-*January 26, 2025*
-
-A detailed exploration of how Cline works and its impact on research and development productivity, featuring personal experiences and practical applications in academic work.
-
+<p>This page has moved to <a href="https://aaronluo00.github.io/my-blog/">https://aaronluo00.github.io/my-blog/</a></p>

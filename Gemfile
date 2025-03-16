@@ -16,6 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
+# Force EventMachine to use pure Ruby implementation instead of C extension
+gem 'eventmachine', '1.2.7', :platforms => [:ruby, :mswin, :mingw, :x64_mingw], :require => 'em/pure_ruby'
+
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
@@ -23,5 +26,6 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  gem 'hawkins'
+  # Temporarily commenting out hawkins to avoid EventMachine issues
+  # gem 'hawkins'
 end
