@@ -47,3 +47,8 @@ You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.h
 - **Email**: [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu)
 - **Schedule Meeting**: [Book a 30-min slot](https://calendly.com/xiaolongluo/30min) 📅
 - **Address**: Harvard School of Engineering and Applied Sciences, Cambridge, MA, USA
+
+---
+<div style="text-align: center; color: #666; font-size: 0.9em; margin-top: 2em; border-top: 1px solid #eee; padding-top: 1em;">
+<em>Last updated: July 2025</em>
+</div>
