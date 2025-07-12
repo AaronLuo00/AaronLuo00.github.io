@@ -42,6 +42,11 @@ This is a Jekyll-based academic personal homepage built on the AcadHomepage temp
 - Homepage content is in `_pages/about.md`
 - Content is modularized using Jekyll includes: `{% include_relative includes/research_interests.md %}`
 - Google Scholar citations can be displayed using: `<span class='show_paper_citations' data='SCHOLAR_PAPER_ID'></span>`
+- **Content Update Pattern**: Major sections (News, Publications, Teaching) are in separate include files for easy maintenance
+- **Styling for Notices**: Use colored highlight boxes for important announcements:
+  ```html
+  <span style="color: #E74C3C; background-color: rgba(231, 76, 60, 0.1); padding: 5px 10px; border-radius: 4px;">Important announcement</span>
+  ```
 
 ### Automated Features
 - Google Scholar citation tracking via `google_scholar_crawler/main.py`
@@ -54,6 +59,18 @@ This is a Jekyll-based academic personal homepage built on the AcadHomepage temp
 - Two versions: full sidebar (with text) and compact mobile (icons only)
 - WeChat QR code integration: set `wechat: "path/to/qr-image.jpg"` in config
 - Uses Font Awesome icons (e.g., `fab fa-fw fa-weixin` for WeChat)
+
+### Publications and Projects Management
+- **Publications structure**: Journal Articles → Conference Papers → Working Projects
+- Working Projects section describes ongoing research without formal publication status
+- When papers get accepted, move from Working Projects to appropriate published section
+- AMIA, ICLR, and other conference papers go under Conference Papers
+
+### Homepage Maintenance Guidelines
+- Update `_pages/includes/news.md` regularly with latest achievements
+- Maintain "Last updated" timestamp at bottom of `_pages/about.md`
+- For major life events (degree completion, new positions), update both News and relevant sections
+- Use consistent date format: [YYYY.MM] for news entries
 
 ### Site Configuration Notes
 - Site title: "Xiaolong Luo | Harvard Ph.D. Student"
