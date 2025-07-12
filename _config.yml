@@ -57,6 +57,7 @@ author:
   twitter          : 
   vine             :
   weibo            :
+  wechat           : "assets/files/Wechat_QRcode.JPG"
   xing             :
   youtube          :
   wikipedia        :
@@ -83,6 +84,7 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+  - CLAUDE.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
