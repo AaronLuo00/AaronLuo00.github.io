@@ -10,8 +10,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Build site**: `bundle exec jekyll build`
 
 ### Alternative Development Scripts
-- `run_server.sh` contains: `bundle exec jekyll liveserve`
+- `run_server.sh` contains: `bundle exec jekyll liveserve` (Note: should be `serve`, not `liveserve`)
 - `start_jekyll.rb` forces EventMachine pure Ruby implementation and runs `bundle exec jekyll serve`
+- CLAUDE.md is excluded from Jekyll processing to avoid build errors
 
 ## Architecture Overview
 
@@ -47,8 +48,16 @@ This is a Jekyll-based academic personal homepage built on the AcadHomepage temp
 - GitHub Actions deployment pipeline
 - Responsive design with dark mode support (`_sass/_dark-mode.scss`)
 
+### Social Media Integration
+- Social media links are configured in `_config.yml` under the `author` section
+- Sidebar social icons are rendered via `_includes/author-profile.html`
+- Two versions: full sidebar (with text) and compact mobile (icons only)
+- WeChat QR code integration: set `wechat: "path/to/qr-image.jpg"` in config
+- Uses Font Awesome icons (e.g., `fab fa-fw fa-weixin` for WeChat)
+
 ### Site Configuration Notes
 - Site title: "Xiaolong Luo | Harvard Ph.D. Student"
 - Repository: "AaronLuo00/Aaron_Homepage"
 - Base URL: "/Aaron_Homepage"
 - Google Analytics and SEO configured
+- CLAUDE.md is excluded from Jekyll processing in `_config.yml`

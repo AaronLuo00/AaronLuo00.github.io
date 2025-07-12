@@ -15,6 +15,8 @@ My research focuses on developing the foundations of next-generation artificial 
 
 You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu). <span style="color: #E74C3C; font-weight: bold; padding: 5px 10px; border-radius: 4px; background-color: rgba(231, 76, 60, 0.1);">🤝 I am actively seeking collaborations in healthcare-related domains! If you're interested in AI applications in healthcare, medical imaging, clinical data analysis, or any related fields, feel free to reach out!</span>
 
+<span style="color: #2E86AB; font-weight: bold; padding: 5px 10px; border-radius: 4px; background-color: rgba(46, 134, 171, 0.1);">📋 Note: I am currently looking for summer 2026 internships! If you know of any suitable positions, I'd love your recommendations. Also always happy to chat over coffee!</span>
+
 {% include_relative includes/research_interests.md %}
 
 {% include_relative includes/news.md %}
