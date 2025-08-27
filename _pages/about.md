@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
-Welcome to my homepage! I am a Ph.D. student in Engineering Science at [Harvard School of Engineering and Applied Sciences](https://www.seas.harvard.edu/) advised by [Prof. Michael Lingzhi Li](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1432015). Prior to that, I obtained my Bachelor's degree in Statistics from the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC) advised by [Prof. Yanran Wang](http://www.yanranwang.com) and worked with [Prof. Atlas Wang](https://www.ece.utexas.edu/people/faculty/atlas-wang), where I was awarded the [41st Guo Moruo Scholarship](https://baike.baidu.com/item/郭沫若奖学金/3072621), the highest honor for USTC undergraduates.
+Welcome to my homepage! I am a Ph.D. student in Engineering Science at [Harvard School of Engineering and Applied Sciences](https://www.seas.harvard.edu/), fortunate to be advised by [Prof. Michael Lingzhi Li](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1432015). Prior to that, I obtained my Bachelor's degree in Statistics from the [University of Science and Technology of China](https://en.ustc.edu.cn/) (USTC) advised by [Prof. Yanran Wang](http://www.yanranwang.com) and worked with [Prof. Atlas Wang](https://www.ece.utexas.edu/people/faculty/atlas-wang), where I was awarded the [41st Guo Moruo Scholarship](https://baike.baidu.com/item/郭沫若奖学金/3072621), the highest honor for USTC undergraduates.
 
 My research focuses on developing the foundations of next-generation artificial intelligence techniques to enhance its effectiveness and practical applications in healthcare. I am particularly interested in developing flexible diagnostic models with multi-task and multi-modal learning, aiming to improve medical assessments through the integration of various types of medical data.
 
@@ -18,6 +18,8 @@ You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.h
 <span style="color: #2E86AB; font-weight: bold; padding: 5px 10px; border-radius: 4px; background-color: rgba(46, 134, 171, 0.1);">📋 Note: I am currently looking for summer 2026 internships! If you know of any suitable positions, I'd love your recommendations. Also always happy to chat over coffee!</span>
 
 {% include_relative includes/research_interests.md %}
+
+{% include_relative includes/long_term_vision.md %}
 
 {% include_relative includes/news.md %}
 
