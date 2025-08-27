@@ -8,7 +8,7 @@
 ## Teaching Fellow
 ### ENG-SCI 139: Innovation in Science and Engineering: Conference Course (Fall 2025)
 - Instructor: Prof. David Ricketts
-- Class size: No limit
+- Class size: 67 students
 - Jointly offered with Graduate School of Design as SCI 6272
 
 ### COMPSCI 1090B: Data Science 2: Advanced Topics in Data Science (Spring 2025)
