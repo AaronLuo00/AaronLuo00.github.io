@@ -71,6 +71,9 @@ This is a Jekyll-based academic personal homepage built on the AcadHomepage temp
 - Maintain "Last updated" timestamp at bottom of `_pages/about.md`
 - For major life events (degree completion, new positions), update both News and relevant sections
 - Use consistent date format: [YYYY.MM] for news entries
+- **Multi-section updates**: When adding degrees, update both Education section and News section
+- **Publication workflow**: Move papers from Working Projects to Conference/Journal sections when accepted
+- **Important notices**: Use colored highlight boxes for collaboration requests, job seeking, etc.
 
 ### Site Configuration Notes
 - Site title: "Xiaolong Luo | Harvard Ph.D. Student"

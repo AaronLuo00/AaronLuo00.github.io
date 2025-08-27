@@ -6,6 +6,11 @@
 - Class size: 55 students
 
 ## Teaching Fellow
+### ENG-SCI 139: Innovation in Science and Engineering: Conference Course (Fall 2025)
+- Instructor: Prof. David Ricketts
+- Class size: No limit
+- Jointly offered with Graduate School of Design as SCI 6272
+
 ### COMPSCI 1090B: Data Science 2: Advanced Topics in Data Science (Spring 2025)
 - Instructor: Prof. Pavlos Protopapas (SEAS) & Natesh Pillai (Statistics)
 - Class size: 277 students
