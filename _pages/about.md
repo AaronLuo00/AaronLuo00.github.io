@@ -31,6 +31,8 @@ You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.h
 
 {% include_relative includes/invited_talks.md %}
 
+{% include_relative includes/professional_service.md %}
+
 {% include_relative includes/education.md %}
 
 {% include_relative includes/honers.md %}
