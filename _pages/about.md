@@ -47,6 +47,9 @@ You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.h
 - [Google Scholar](https://scholar.google.com/citations?user=Pjx2DdQAAAAJ&hl=en)
 - [GitHub](https://github.com/AaronLuo00)
 
+# 🌍 Visitors
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=333&t=tt&d=lu2aCMrgo7pZHy1HbmZHo21Lg4BollvBa-5InOmXGsk&co=84b0ce&ct=dbbfbf'></script>
+
 # 📧 Contact
 - **Email**: [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu)
 - **Schedule Meeting**: [Book a 30-min slot](https://calendly.com/xiaolongluo/30min) 📅
@@ -54,5 +57,5 @@ You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.h
 
 ---
 <div style="text-align: center; color: #666; font-size: 0.9em; margin-top: 2em; border-top: 1px solid #eee; padding-top: 1em;">
-<em>Last updated: August 2025</em>
+<em>Last updated: Oct. 2025</em>
 </div>
