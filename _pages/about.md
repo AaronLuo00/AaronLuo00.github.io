@@ -43,12 +43,9 @@ You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.h
 
 {% include_relative includes/extracurricular.md %}
 
-# 🔗 Links
-- [Google Scholar](https://scholar.google.com/citations?user=Pjx2DdQAAAAJ&hl=en)
-- [GitHub](https://github.com/AaronLuo00)
 
 # 🌍 Visitors
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=333&t=tt&d=lu2aCMrgo7pZHy1HbmZHo21Lg4BollvBa-5InOmXGsk&co=84b0ce&ct=dbbfbf'></script>
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=433&t=tt&d=lu2aCMrgo7pZHy1HbmZHo21Lg4BollvBa-5InOmXGsk&co=84b0ce&ct=dbbfbf'></script>
 
 # 📧 Contact
 - **Email**: [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.harvard.edu)
