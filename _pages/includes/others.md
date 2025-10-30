@@ -5,7 +5,7 @@
 - **Languages**: English (TOEFL 100, Speaking: 23)
 
 # 🌟 Extracurricular Activities
-- **Harvard GSAS Entrepreneur Club** (2022-Present)  
+- **Harvard GSAS Entrepreneur Club** (2022-2023)  
   Co-director of the AI Community, leading initiatives to foster entrepreneurship and AI-focused projects
 
 - **FutureX** (2022-2023)  

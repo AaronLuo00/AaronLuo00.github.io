@@ -9,6 +9,6 @@
 
 
 ## Leadership & Entrepreneurship
-- **Co-director**, [Harvard GSAS Entrepreneur Club](https://gsas.harvard.edu/student-life/harvard-resources/graduate-student-organizations), AI Community (2022-Present)  
+- **Co-director**, [Harvard GSAS Entrepreneur Club](https://gsas.harvard.edu/student-life/harvard-resources/graduate-student-organizations), AI Community (2022-2023)  
 - **Second Prize**, [H-InnoPitch Competition](https://innovationlabs.harvard.edu/) with FutureX (2022)  
 
