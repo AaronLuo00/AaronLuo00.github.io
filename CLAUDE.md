@@ -77,7 +77,7 @@ This is a Jekyll-based academic personal homepage built on the AcadHomepage temp
 
 ### Site Configuration Notes
 - Site title: "Xiaolong Luo | Harvard Ph.D. Student"
-- Repository: "AaronLuo00/Aaron_Homepage"
-- Base URL: "/Aaron_Homepage"
+- Repository: "AaronLuo00/AaronLuo00.github.io"
+- Base URL: ""
 - Google Analytics and SEO configured
 - CLAUDE.md is excluded from Jekyll processing in `_config.yml`
