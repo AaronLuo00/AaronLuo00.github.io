@@ -54,5 +54,5 @@ You can reach me via email at [xiaolongluo@g.harvard.edu](mailto:xiaolongluo@g.h
 
 ---
 <div style="text-align: center; color: #666; font-size: 0.9em; margin-top: 2em; border-top: 1px solid #eee; padding-top: 1em;">
-<em>Last updated: Oct. 2025</em>
+<em>Last updated: Feb. 2026</em>
 </div>
