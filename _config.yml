@@ -24,7 +24,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 # Site Author
 author:
   name             : "Xiaolong Luo"
-  avatar           : "images/profile.png"
+  avatar           : "/images/profile.png"
   bio              : "Ph.D. Student in Engineering Science at Harvard University"
   location         : "Cambridge, Massachusetts"
   employer         : "Harvard University"

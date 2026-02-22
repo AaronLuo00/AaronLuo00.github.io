@@ -24,5 +24,8 @@ main:
   - title: 'Philosophy'
     url: '/philosophy'
 
+  - title: 'Blog'
+    url: '/blog'
+
   - title: 'Contact'
     url: '/#-contact'
